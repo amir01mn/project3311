@@ -15,6 +15,7 @@ public class Booking {
     private Date date;
 
 
+
     public Booking(String bookingID, User user, ParkingSpace parkingSpace, ParkingLot parkingLot,
                    String status, Date date, LocalTime start, LocalTime end, String plate) {
         this.bookingID = bookingID;
